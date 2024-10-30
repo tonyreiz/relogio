@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+    font-family: relogio;
+    src: url(fonts/DS-DIGII.TTF);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/60a58511e5c70a418ac743f7df8134fa.gif') no-repeat;
+    background-size: cover;
+}
+
+.relogio {
+    margin: auto;
+    display: block;
+    background: #1a1a1a8e;
+    width: 90%;
+    display: flex;
+    margin-bottom: 35px;
+    height: 50vh;
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+    justify-content: space-around;
+}
+.calendario {
+    margin: auto;
+    display: block;
+    background: #1a1a1a8e;
+    width: 90%;
+    display: flex;
+    margin-bottom: 35px;
+    height: 50vh;
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.relogio div {
+    width: 30%;
+    margin: 2%;
+    padding: 3%;
+    flex-direction: column;
+    letter-spacing: 3%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: relogio;
+    color: #000;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+span {
+ 
+    display: inline-block;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+
+
+span#horas {
+    font-family: relogio;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+span#minutos {
+    font-family: relogio;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+span#segundo {
+    font-family: relogio;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+.tempo {
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20rem;
+    display: block;
+    margin: auto;
+
+}
+
+div {
+    align-items: center;
+    height: 30vh;
+    width: 30%;
+    justify-content: space-around;
+    display: flex;
+    background-color: #1b1b1b24;
+    border-radius: .5rem;
+}
+
+
+
+
+
+@media (max-width:500px) {
+    .relogio {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+padding:  1rem ;
+font-size: 1.2rem;
+
+    }
+}
